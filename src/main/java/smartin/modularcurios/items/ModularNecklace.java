@@ -22,8 +22,8 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class ModularNecklace extends ModularItem implements ICurio {
-    public final static String ringBase = "necklace/chain";
-    public final static String ringGem = "necklace/gem";
+    public final static String necklaceChain = "necklace/chain";
+    public final static String necklaceGem = "necklace/gem";
     private static final Logger logger = LogManager.getLogger();
     private static final GuiModuleOffsets majorOffsets = new GuiModuleOffsets(-13, -1, 3, 19);
     private static final GuiModuleOffsets minorOffsets = new GuiModuleOffsets(5, 0);
@@ -31,7 +31,7 @@ public class ModularNecklace extends ModularItem implements ICurio {
 
     public ModularNecklace() {
         super(new Properties());
-        majorModuleKeys = new String[]{ringBase, ringGem};
+        majorModuleKeys = new String[]{necklaceChain, necklaceGem};
         minorModuleKeys = new String[]{};
     }
 
@@ -91,8 +91,8 @@ public class ModularNecklace extends ModularItem implements ICurio {
 
     private ItemStack setupRing(String base, String gem) {
         ItemStack itemStack = new ItemStack(this);
-        IModularItem.putModuleInSlot(itemStack, ringBase, "ring/simple_base", "simple_base/", "simple_base/" + base);
-        IModularItem.putModuleInSlot(itemStack, ringGem, "ring/simple_gem", "simple_gem/", "simple_gem/" + gem);
+        IModularItem.putModuleInSlot(itemStack, necklaceChain, "ring/simple_base", "simple_base/", "simple_base/" + base);
+        IModularItem.putModuleInSlot(itemStack, necklaceGem, "ring/simple_gem", "simple_gem/", "simple_gem/" + gem);
         IModularItem.updateIdentifier(itemStack);
 
         return itemStack;

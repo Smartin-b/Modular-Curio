@@ -19,10 +19,10 @@
           "textureX": 48,
           "textureY": 16
         },
-        "availableTextures": [ "big" ],
+        "availableTextures": [ "default" ],
         "models": [
           {
-            "location": "tetra:items/module/ring/gem/"
+            "location": "tetra:items/module/ring/gem/big/"
           }
         ]
       }

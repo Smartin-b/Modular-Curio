@@ -1,28 +1,26 @@
 {
   "replace": true,
-  "slots": [ "ring/gem" ],
   "type": "tetra:basic_major_module",
+  "slots": [ "necklace/chain" ],
   "improvements": [
   ],
   "variants": [
     {
-      "materials": [ "tetra:gem/" ],
-      "key": "gem_small/",
-      "integrity": 1,
-      "durability": 70,
+      "materials": [ "tetra:metal/" ],
+      "key": "necklace_chain_simple/",
+      "attributes": {
+        "generic.attack_speed": -0.8
+      },
+      "durability": -20,
       "extract": {
-        "durability": 0.5,
-        "integrity": 1,
-        "magicCapacity": 1,
         "glyph": {
           "textureLocation": "tetra:textures/gui/aof_glyph.png",
-          "textureX": 48,
-          "textureY": 16
+          "textureX": 32
         },
         "availableTextures": [ "default" ],
         "models": [
           {
-            "location": "tetra:items/module/ring/gem/small/"
+            "location": "tetra:items/module/necklace/chain/"
           }
         ]
       }

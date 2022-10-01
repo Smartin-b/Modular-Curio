@@ -15,7 +15,7 @@
   },
   "outcomes": [
     {
-      "materials": [ "tetra:gem/" ],
+      "materials": [ "tetra:metal/" ],
       "countFactor": 1,
       "moduleKey": "necklace/necklace_chain_simple",
       "moduleVariant": "necklace_chain_simple/"
