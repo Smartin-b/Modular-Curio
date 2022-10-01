@@ -1,0 +1,31 @@
+{
+  "replace": true,
+  "slots": [ "necklace/gem" ],
+  "materialSlotCount": 1,
+  "rarity": "temporary",
+  "displayType": "major",
+  "glyph": {
+    "textureLocation": "tetra:textures/gui/aof_glyph.png",
+    "textureX": 32
+  },
+  "translation": {
+    "primaryAttributes": {
+      "generic.attack_speed": 1
+    },
+    "secondaryAttributes": {
+      "generic.attack_damage": 1,
+      "generic.attack_speed": -1
+    },
+    "durability": 3,
+    "integrity": 3,
+    "magicCapacity": 2
+  },
+  "outcomes": [
+    {
+      "materials": [ "tetra:metal/" ],
+      "countFactor": 2,
+      "moduleKey": "necklace/necklace_gem_small",
+      "moduleVariant": "necklace_gem_small/"
+    }
+  ]
+}

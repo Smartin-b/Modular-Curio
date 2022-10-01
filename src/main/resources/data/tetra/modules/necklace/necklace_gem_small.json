@@ -1,13 +1,13 @@
 {
   "replace": true,
-  "slots": [ "ring/gem" ],
+  "slots": [ "necklace/gem" ],
   "type": "tetra:basic_major_module",
   "improvements": [
   ],
   "variants": [
     {
       "materials": [ "tetra:gem/" ],
-      "key": "simple_gem/",
+      "key": "necklace_gem_small/",
       "integrity": 1,
       "durability": 70,
       "extract": {
@@ -19,7 +19,7 @@
           "textureX": 48,
           "textureY": 16
         },
-        "availableTextures": [ "default" ],
+        "availableTextures": [ "small" ],
         "models": [
           {
             "location": "tetra:items/module/ring/gem/"

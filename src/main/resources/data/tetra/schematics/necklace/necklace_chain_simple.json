@@ -1,6 +1,6 @@
 {
   "replace": true,
-  "slots": [ "ring/gem" ],
+  "slots": [ "necklace/chain" ],
   "materialSlotCount": 1,
   "rarity": "temporary",
   "displayType": "major",
@@ -17,8 +17,8 @@
     {
       "materials": [ "tetra:gem/" ],
       "countFactor": 1,
-      "moduleKey": "ring/ring_simple_gem",
-      "moduleVariant": "ring_simple_gem/"
+      "moduleKey": "necklace/necklace_chain_simple",
+      "moduleVariant": "necklace_chain_simple/"
     }
   ]
 }

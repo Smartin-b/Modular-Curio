@@ -8,11 +8,13 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
+import smartin.modularcurios.items.ModularNecklace;
 import smartin.modularcurios.items.ModularRing;
 
 public class Registry {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, ModularCurios.MOD_ID);
-    public static final RegistryObject<Item> Test_TRIPPLE = ITEMS.register("modular_ring", ModularRing::new);
+    public static final RegistryObject<Item> ModularRing = ITEMS.register("modular_ring", ModularRing::new);
+    public static final RegistryObject<Item> ModularNecklace = ITEMS.register("modular_necklace", ModularNecklace::new);
 
     public static void init(IEventBus bus){
         bus.register(Registry.class);

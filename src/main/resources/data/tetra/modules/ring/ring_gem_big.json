@@ -1,0 +1,31 @@
+{
+  "replace": true,
+  "slots": [ "ring/gem" ],
+  "type": "tetra:basic_major_module",
+  "improvements": [
+  ],
+  "variants": [
+    {
+      "materials": [ "tetra:gem/" ],
+      "key": "gem_big/",
+      "integrity": 1,
+      "durability": 70,
+      "extract": {
+        "durability": 0.5,
+        "integrity": 1,
+        "magicCapacity": 1,
+        "glyph": {
+          "textureLocation": "tetra:textures/gui/aof_glyph.png",
+          "textureX": 48,
+          "textureY": 16
+        },
+        "availableTextures": [ "big" ],
+        "models": [
+          {
+            "location": "tetra:items/module/ring/gem/"
+          }
+        ]
+      }
+    }
+  ]
+}
