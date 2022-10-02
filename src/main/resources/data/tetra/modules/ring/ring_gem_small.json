@@ -6,84 +6,207 @@
   ],
   "variants": [
     {
-      "key": "gem_small/nether_star",
+      "key": "ring_gem_small/nether_star",
       "category": "misc",
-      "integrity": -1,
+      "integrity": -2,
       "attributes": {
         "**generic.attack_damage": 0.15
       },
-      "glyph": {
-        "tint": "fffed0",
-        "textureX": 80,
-        "textureY": 16
+      "extract": {
+        "glyph": {
+          "tint": "fffed0",
+          "textureX": 80,
+          "textureY": 16
+        },
+        "availableTextures": [
+          "default"
+        ],
+        "models": [
+          {
+            "location": "tetra:items/module/ring/gem/big/"
+          }
+        ]
       },
-      "availableTextures": [ "default" ],
-      "models": [
-        {
-          "location": "tetra:items/module/ring/gem/small/"
-        }
-      ],
       "effects": {
         "criticalStrike": [ 15, 2 ]
       }
     },
     {
-      "key": "gem_small/diamond",
+      "key": "ring_gem_small/diamond",
       "category": "misc",
       "integrity": -1,
       "attributes": {
-        "**generic.attack_damage": 0.15
+        "**generic.attack_damage": 0.10
       },
-      "glyph": {
-        "tint": "fffed0",
-        "textureX": 80,
-        "textureY": 16
+      "extract": {
+        "glyph": {
+          "tint": "fffed0",
+          "textureX": 80,
+          "textureY": 16
+        },
+        "availableTextures": [ "default" ],
+        "models": [
+          {
+            "location": "tetra:items/module/ring/gem/small/"
+          }
+        ]
+      }
+    },
+    {
+      "key": "ring_gem_small/pristine_diamond",
+      "category": "misc",
+      "integrity": -2,
+      "attributes": {
+        "**generic.attack_damage": 0.20
       },
-      "availableTextures": [ "default" ],
-      "models": [
-        {
-          "location": "tetra:items/module/ring/gem/small/"
-        }
-      ]
-    },    {
-      "key": "gem_small/emerald",
+      "extract": {
+        "glyph": {
+          "tint": "fffed0",
+          "textureX": 80,
+          "textureY": 16
+        },
+        "availableTextures": [ "default" ],
+        "models": [
+          {
+            "location": "tetra:items/module/ring/gem/small/"
+          }
+        ]
+      }
+    },
+    {
+      "key": "ring_gem_small/emerald",
       "category": "misc",
       "integrity": -1,
-      "glyph": {
-        "tint": "fffed0",
-        "textureX": 80,
-        "textureY": 16
+      "extract": {
+        "glyph": {
+          "tint": "fffed0",
+          "textureX": 80,
+          "textureY": 16
+        },
+        "availableTextures": [ "default" ],
+        "models": [
+          {
+            "location": "tetra:items/module/ring/gem/small/"
+          }
+        ]
       },
-      "availableTextures": [ "default" ],
-      "models": [
-        {
-          "location": "tetra:items/module/ring/gem/small/"
-        }
-      ],
       "effects": {
         "criticalStrike": [ 15, 2 ]
       }
     },
     {
-      "key": "gem_small/obsidian",
+      "key": "ring_gem_small/pristine_emerald",
       "category": "misc",
-      "integrity": -1,
-      "attributes": {
-        "**generic.attack_damage": 0.15
+      "integrity": -2,
+      "extract": {
+        "glyph": {
+          "tint": "fffed0",
+          "textureX": 80,
+          "textureY": 16
+        },
+        "availableTextures": [ "default" ],
+        "models": [
+          {
+            "location": "tetra:items/module/ring/gem/small/"
+          }
+        ]
       },
-      "glyph": {
+      "effects": {
+        "criticalStrike": [ 15, 4 ]
+      }
+    },
+    {
+      "key": "ring_gem_small/lapis",
+      "category": "misc",
+      "integrity": -2,
+      "attributes": {
+        "**generic.attack_damage": 0.20
+      },
+      "extract": {
+        "glyph": {
+          "tint": "fffed0",
+          "textureX": 80,
+          "textureY": 16
+        },
+        "availableTextures": [ "default" ],
+        "models": [
+          {
+            "location": "tetra:items/module/ring/gem/small/"
+          }
+        ]
+      }
+    },
+    {
+      "key": "ring_gem_small/pristine_lapis",
+      "category": "misc",
+      "integrity": -2,
+      "extract": {
+        "glyph": {
+          "tint": "fffed0",
+          "textureX": 80,
+          "textureY": 16
+        },
+        "availableTextures": [ "default" ],
+        "models": [
+          {
+            "location": "tetra:items/module/ring/gem/small/"
+          }
+        ]
+      }
+    },
+    {
+      "key": "ring_gem_small/quartz",
+      "category": "misc",
+      "integrity": -2,
+      "attributes": {
+        "**generic.attack_damage": 0.20
+      },
+      "extract": {      "glyph": {
         "tint": "fffed0",
         "textureX": 80,
         "textureY": 16
       },
-      "availableTextures": [ "default" ],
-      "models": [
-        {
-          "location": "tetra:items/module/ring/gem/small/"
-        }
-      ],
-      "effects": {
-        "criticalStrike": [ 15, 2 ]
+        "availableTextures": [ "default" ],
+        "models": [
+          {
+            "location": "tetra:items/module/ring/gem/small/"
+          }
+        ]
+      }
+    },
+    {
+      "key": "ring_gem_small/redstone",
+      "category": "misc",
+      "integrity": -2,
+      "extract": {
+        "glyph": {
+        "tint": "fffed0",
+        "textureX": 80,
+        "textureY": 16
+      },
+        "availableTextures": [ "default" ],
+        "models": [
+          {
+            "location": "tetra:items/module/ring/gem/small/"
+          }
+        ]
+      }
+    },
+    {
+      "key": "ring_gem_small/obsidian",
+      "category": "misc",
+      "extract": {
+        "glyph": {
+          "tint": "fffed0",
+          "textureX": 80,
+          "textureY": 16
+        },
+        "availableTextures": [ "default" ],
+        "models": [
+          {
+            "location": "tetra:items/module/ring/gem/small/"
+          }
+        ]
       }
     }
   ]
