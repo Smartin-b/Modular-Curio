@@ -8,15 +8,27 @@
     "textureLocation": "tetra:textures/gui/aof_glyph.png",
     "textureX": 32
   },
-  "translation": {
-    "primaryAttributes": {
-      "generic.attack_speed": 1
-    }
-  },
+  "integrity": -1,
   "outcomes": [
     {
+      "material": {
+        "items": [ "minecraft:nether_star" ]
+      },
+      "countFactor": 2,
+      "moduleKey": "ring/ring_gem_big",
+      "moduleVariant": "ring_gem_big/"
+    },
+    {
+      "material": {
+        "items": [ "minecraft:obsidian" ]
+      },
+      "countFactor": 2,
+      "moduleKey": "ring/ring_gem_big",
+      "moduleVariant": "ring_gem_big/"
+    },
+    {
       "materials": [ "tetra:gem/" ],
-      "countFactor": 1,
+      "countFactor": 2,
       "moduleKey": "ring/ring_gem_big",
       "moduleVariant": "ring_gem_big/"
     }

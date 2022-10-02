@@ -8,17 +8,63 @@
     "textureLocation": "tetra:textures/gui/aof_glyph.png",
     "textureX": 32
   },
-  "translation": {
-    "primaryAttributes": {
-      "generic.attack_speed": 1
-    }
-  },
+  "integrity": -1,
   "outcomes": [
     {
-      "materials": [ "tetra:gem/" ],
+      "material": {
+        "items": [ "minecraft:diamond" ]
+      },
       "countFactor": 1,
       "moduleKey": "ring/ring_gem_small",
-      "moduleVariant": "ring_gem_small/"
+      "moduleVariant": "ring_gem_small/diamond"
+    },
+    {
+      "material": {
+        "items": [ "minecraft:emerald" ]
+      },
+      "countFactor": 1,
+      "moduleKey": "ring/ring_gem_small",
+      "moduleVariant": "ring_gem_small/emerald"
+    },
+    {
+      "material": {
+        "items": [ "minecraft:nether_star" ]
+      },
+      "countFactor": 1,
+      "moduleKey": "ring/ring_gem_small",
+      "moduleVariant": "ring_gem_small/nether_star2"
+    },
+    {
+      "material": {
+        "items": [ "minecraft:obsidian" ]
+      },
+      "countFactor": 1,
+      "moduleKey": "ring/ring_gem_small",
+      "moduleVariant": "ring_gem_small/obsidian"
+    },
+    {
+      "material": {
+        "items": [ "minecraft:lapis_lazuli" ]
+      },
+      "countFactor": 2,
+      "moduleKey": "ring/ring_gem_small",
+      "moduleVariant": "ring_gem_small/lapis_lazuli"
+    },
+    {
+      "material": {
+        "items": [ "minecraft:redstone" ]
+      },
+      "countFactor": 5,
+      "moduleKey": "ring/ring_gem_small",
+      "moduleVariant": "ring_gem_small/redstone"
+    },
+    {
+      "material": {
+        "items": [ "minecraft:quartz" ]
+      },
+      "countFactor": 1,
+      "moduleKey": "ring/ring_gem_small",
+      "moduleVariant": "ring_gem_small/quartz"
     }
   ]
 }
