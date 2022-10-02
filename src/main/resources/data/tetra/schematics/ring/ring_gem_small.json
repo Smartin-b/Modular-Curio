@@ -1,0 +1,93 @@
+{
+    "replace": true,
+    "type": "tetra:basic_module",
+    "slots": [ "ring/gem" ],
+    "materialSlotCount": 1,
+    "displayType": "minor",
+    "glyph": {
+        "textureX": 80,
+        "textureY": 16
+    },
+    "outcomes": [
+        {
+            "material": {
+                "items": [ "tetra:pristine_diamond" ]
+            },
+            "countFactor": 2,
+            "moduleKey": "ring/ring_gem_small",
+            "moduleVariant": "gem_small/pristine_diamond"
+        },
+        {
+            "material": {
+                "items": [ "tetra:pristine_emerald" ]
+            },
+            "countFactor": 2,
+            "moduleKey": "ring/ring_gem_small",
+            "moduleVariant": "gem_small/pristine_emerald"
+        },
+        {
+            "material": {
+                "items": [ "tetra:pristine_lapis" ]
+            },
+            "countFactor": 2,
+            "moduleKey": "ring/ring_gem_small",
+            "moduleVariant": "gem_small/pristine_lapis"
+        },
+        {
+            "material": {
+                "tag": "forge:gems/diamond"
+            },
+            "countFactor": 2,
+            "moduleKey": "ring/ring_gem_small",
+            "moduleVariant": "gem_small/diamond"
+        },
+        {
+            "material": {
+                "tag": "forge:gems/emerald"
+            },
+            "countFactor": 2,
+            "moduleKey": "ring/ring_gem_small",
+            "moduleVariant": "gem_small/emerald"
+        },
+        {
+            "material": {
+                "tag": "forge:gems/lapis"
+            },
+            "countFactor": 2,
+            "moduleKey": "ring/ring_gem_small",
+            "moduleVariant": "gem_small/lapis"
+        },
+        {
+            "material": {
+                "items": [ "minecraft:nether_star" ]
+            },
+            "countFactor": 2,
+            "moduleKey": "ring/ring_gem_small",
+            "moduleVariant": "gem_small/nether_star"
+        },
+        {
+            "material": {
+                "items": [ "minecraft:redstone" ]
+            },
+            "countFactor": 2,
+            "moduleKey": "ring/ring_gem_small",
+            "moduleVariant": "gem_small/redstone"
+        },
+        {
+            "material": {
+                "items": [ "minecraft:quartz" ]
+            },
+            "countFactor": 2,
+            "moduleKey": "ring/ring_gem_small",
+            "moduleVariant": "gem_small/quartz"
+        },
+        {
+            "material": {
+                "items": [ "minecraft:obsidian" ]
+            },
+            "countFactor": 2,
+            "moduleKey": "ring/ring_gem_small",
+            "moduleVariant": "gem_small/obsidian"
+        }
+    ]
+}

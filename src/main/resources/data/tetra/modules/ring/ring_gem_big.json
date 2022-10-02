@@ -1,27 +1,38 @@
 {
   "replace": true,
+  "type": "tetra:basic_module",
   "slots": [ "ring/gem" ],
-  "type": "tetra:basic_major_module",
-  "improvements": [
-  ],
+  "renderLayer": "higher",
   "variants": [
-    {
-      "materials": [ "tetra:gem/" ],
-      "key": "gem_big/",
-      "integrity": -2,
-      "extract": {
-        "glyph": {
-          "textureLocation": "tetra:textures/gui/aof_glyph.png",
-          "textureX": 48,
-          "textureY": 16
-        },
-        "availableTextures": [ "default" ],
-        "models": [
-          {
-            "location": "tetra:items/module/ring/gem/big/"
-          }
-        ]
+      {
+          "key": "gem_big/nether_star",
+          "category": "misc",
+          "durability": 650,
+          "integrity": -1,
+          "glyph": {
+              "tint": "fffed0",
+              "textureX": 80,
+              "textureY": 16
+          },
+          "models": [{
+              "location": "tetra:items/module/ring/gem/big/default",
+              "tint": "fffed0"
+          }]
+      },
+      {
+          "key": "gem_big/obsidian",
+          "category": "stone",
+          "durability": 50,
+          "integrity": -1,
+          "glyph": {
+              "tint": "50445a",
+              "textureX": 48,
+              "textureY": 16
+          },
+          "models": [{
+              "location": "tetra:items/module/ring/gem/big/default",
+              "tint": "50445a"
+          }]
       }
-    }
   ]
 }
