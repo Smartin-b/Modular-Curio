@@ -25,14 +25,14 @@ public class ModularNecklace extends ModularItem implements ICurio {
     public final static String necklaceChain = "necklace/chain";
     public final static String necklaceGem = "necklace/gem";
     private static final Logger logger = LogManager.getLogger();
-    private static final GuiModuleOffsets majorOffsets = new GuiModuleOffsets(-13, -1, 3, 19);
-    private static final GuiModuleOffsets minorOffsets = new GuiModuleOffsets(5, 0);
+    private static final GuiModuleOffsets majorOffsets = new GuiModuleOffsets(-13, -1);
+    private static final GuiModuleOffsets minorOffsets = new GuiModuleOffsets(3, 19);
     public static final String identifier = "modular_necklace";
 
     public ModularNecklace() {
         super(new Properties());
-        majorModuleKeys = new String[]{necklaceChain, necklaceGem};
-        minorModuleKeys = new String[]{};
+        majorModuleKeys = new String[]{necklaceChain};
+        minorModuleKeys = new String[]{necklaceGem};
     }
 
     @Override

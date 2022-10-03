@@ -1,28 +1,227 @@
 {
   "replace": true,
+  "type": "tetra:basic_module",
   "slots": [ "necklace/gem" ],
-  "type": "tetra:basic_major_module",
-  "improvements": [
-  ],
+  "renderLayer": "higher",
   "variants": [
     {
-      "materials": [ "tetra:gem/" ],
-      "key": "necklace_gem_small/",
-      "integrity": 1,
+      "key": "gem_small/nether_star",
+      "category": "misc",
+      "durability": 650,
+      "integrity": -1,
+      "attributes": {
+        "**generic.attack_damage": 0.15
+      },
       "extract": {
-        "integrity": 1,
         "glyph": {
-          "textureLocation": "tetra:textures/gui/aof_glyph.png",
-          "textureX": 48,
+          "tint": "fffed0",
+          "textureX": 80,
+          "textureY": 16
+        }
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/necklace/gem/small/star",
+          "tint": "fffed0"
+        }
+      ],
+      "effects": {
+        "criticalStrike": [ 15, 2 ]
+      }
+    },
+    {
+      "key": "gem_small/diamond",
+      "category": "gem",
+      "durability": 512,
+      "durabilityMultiplier": 0.8,
+      "integrity": -1,
+      "attributes": {
+        "**generic.attack_damage": 0.1
+      },
+      "extract": {
+        "glyph": {
+          "tint": "diamond",
+          "textureX": 80,
+          "textureY": 16
+        }
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/necklace/gem/small/default",
+          "tint": "diamond"
+        }
+      ]
+    },
+    {
+      "key": "gem_small/pristine_diamond",
+      "category": "gem",
+      "integrity": -1,
+      "durability": 741,
+      "durabilityMultiplier": 0.8,
+      "attributes": {
+        "**generic.attack_damage": 0.20
+      },
+      "extract": {
+        "glyph": {
+          "tint": "diamond",
+          "textureX": 80,
+          "textureY": 16
+        }
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/necklace/gem/small/pristine",
+          "tint": "diamond"
+        }
+      ]
+    },
+    {
+      "key": "gem_small/emerald",
+      "category": "gem",
+      "durability": 48,
+      "integrity": -1,
+      "extract": {
+        "glyph": {
+          "tint": "emerald",
+          "textureX": 80,
+          "textureY": 16
+        }
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/necklace/gem/small/default",
+          "tint": "emerald"
+        }
+      ],
+      "effects": {
+        "criticalStrike": [ 15, 2 ]
+      }
+    },
+    {
+      "key": "gem_small/pristine_emerald",
+      "category": "gem",
+      "durability": 33,
+      "integrity": -1,
+      "extract": {
+        "glyph": {
+          "tint": "emerald",
+          "textureX": 80,
+          "textureY": 16
+        }
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/necklace/gem/small/pristine",
+          "tint": "emerald"
+        }
+      ],
+      "effects": {
+        "criticalStrike": [ 15, 4 ]
+      }
+    },
+    {
+      "key": "gem_small/lapis",
+      "category": "gem",
+      "durability": 22,
+      "integrity": -1,
+      "extract": {
+        "glyph": {
+          "tint": "lapis",
+          "textureX": 80,
           "textureY": 16
         },
-        "availableTextures": [ "default" ],
-        "models": [
-          {
-            "location": "tetra:items/module/necklace/gem/small/"
-          }
-        ]
-      }
+        "effects": {
+          "intuit": 1
+        }
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/necklace/gem/small/default",
+          "tint": "lapis"
+        }
+      ]
+    },
+    {
+      "key": "gem_small/pristine_lapis",
+      "category": "misc",
+      "durability": 15,
+      "integrity": -1,
+      "extract": {
+        "glyph": {
+          "tint": "lapis",
+          "textureX": 80,
+          "textureY": 16
+        },
+        "effects": {
+          "intuit": 2
+        }
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/necklace/gem/small/pristine",
+          "tint": "lapis"
+        }
+      ]
+    },
+    {
+      "key": "gem_small/quartz",
+      "category": "gem",
+      "durability": 15,
+      "integrity": -1,
+      "attributes": {
+        "**generic.attack_damage": 0.20
+      },
+      "extract": {
+        "glyph": {
+          "tint": "fcf4f9",
+          "textureX": 80,
+          "textureY": 16
+        }
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/necklace/gem/small/bright",
+          "tint": "fcf4f9"
+        }
+      ]
+    },
+    {
+      "key": "gem_small/redstone",
+      "category": "misc",
+      "durability": 10,
+      "integrity": -1,
+      "extract": {
+        "glyph": {
+          "tint": "ed3643",
+          "textureX": 80,
+          "textureY": 16
+        }
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/necklace/gem/small/default",
+          "tint": "ed3643"
+        }
+      ]
+    },
+    {
+      "key": "gem_small/obsidian",
+      "category": "stone",
+      "durability": 50,
+      "integrity": -1,
+      "extract": {
+        "glyph": {
+          "tint": "50445a",
+          "textureX": 80,
+          "textureY": 16
+        }
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/necklace/gem/small/default",
+          "tint": "50445a"
+        }
+      ]
     }
   ]
 }

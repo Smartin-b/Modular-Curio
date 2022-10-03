@@ -70,7 +70,7 @@
             },
             "models": [
                 {
-                    "location": "tetra:items/module/ring/gem/small/bright",
+                    "location": "tetra:items/module/ring/gem/small/pristine",
                     "tint": "diamond"
                 }
             ]
@@ -111,7 +111,7 @@
             },
             "models": [
                 {
-                    "location": "tetra:items/module/ring/gem/small/bright",
+                    "location": "tetra:items/module/ring/gem/small/pristine",
                     "tint": "emerald"
                 }
             ],
@@ -158,7 +158,7 @@
             },
             "models": [
                 {
-                    "location": "tetra:items/module/ring/gem/small/default",
+                    "location": "tetra:items/module/ring/gem/small/pristine",
                     "tint": "lapis"
                 }
             ]
@@ -180,7 +180,7 @@
             },
             "models": [
                 {
-                    "location": "tetra:items/module/ring/gem/small/default",
+                    "location": "tetra:items/module/ring/gem/small/bright",
                     "tint": "fcf4f9"
                 }
             ]

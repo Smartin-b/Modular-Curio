@@ -8,10 +8,7 @@
     {
       "materials": [ "tetra:metal/" ],
       "key": "necklace_chain_simple/",
-      "attributes": {
-        "generic.attack_speed": -0.8
-      },
-      "durability": -20,
+      "integrity": 2,
       "extract": {
         "glyph": {
           "textureLocation": "tetra:textures/gui/aof_glyph.png",

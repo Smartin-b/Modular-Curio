@@ -1,31 +1,93 @@
 {
   "replace": true,
+  "type": "tetra:basic_module",
   "slots": [ "necklace/gem" ],
   "materialSlotCount": 1,
-  "rarity": "temporary",
-  "displayType": "major",
+  "displayType": "minor",
   "glyph": {
-    "textureLocation": "tetra:textures/gui/aof_glyph.png",
-    "textureX": 32
-  },
-  "translation": {
-    "primaryAttributes": {
-      "generic.attack_speed": 1
-    },
-    "secondaryAttributes": {
-      "generic.attack_damage": 1,
-      "generic.attack_speed": -1
-    },
-    "durability": 3,
-    "integrity": 3,
-    "magicCapacity": 2
+    "textureX": 80,
+    "textureY": 16
   },
   "outcomes": [
     {
-      "materials": [ "tetra:gem/" ],
+      "material": {
+        "items": [ "tetra:pristine_diamond" ]
+      },
       "countFactor": 2,
       "moduleKey": "necklace/necklace_gem_small",
-      "moduleVariant": "necklace_gem_small/"
+      "moduleVariant": "gem_small/pristine_diamond"
+    },
+    {
+      "material": {
+        "items": [ "tetra:pristine_emerald" ]
+      },
+      "countFactor": 2,
+      "moduleKey": "necklace/necklace_gem_small",
+      "moduleVariant": "gem_small/pristine_emerald"
+    },
+    {
+      "material": {
+        "items": [ "tetra:pristine_lapis" ]
+      },
+      "countFactor": 2,
+      "moduleKey": "necklace/necklace_gem_small",
+      "moduleVariant": "gem_small/pristine_lapis"
+    },
+    {
+      "material": {
+        "tag": "forge:gems/diamond"
+      },
+      "countFactor": 2,
+      "moduleKey": "necklace/necklace_gem_small",
+      "moduleVariant": "gem_small/diamond"
+    },
+    {
+      "material": {
+        "tag": "forge:gems/emerald"
+      },
+      "countFactor": 2,
+      "moduleKey": "necklace/necklace_gem_small",
+      "moduleVariant": "gem_small/emerald"
+    },
+    {
+      "material": {
+        "tag": "forge:gems/lapis"
+      },
+      "countFactor": 2,
+      "moduleKey": "necklace/necklace_gem_small",
+      "moduleVariant": "gem_small/lapis"
+    },
+    {
+      "material": {
+        "items": [ "minecraft:nether_star" ]
+      },
+      "countFactor": 2,
+      "moduleKey": "necklace/necklace_gem_small",
+      "moduleVariant": "gem_small/nether_star"
+    },
+    {
+      "material": {
+        "items": [ "minecraft:redstone" ]
+      },
+      "countFactor": 2,
+      "moduleKey": "necklace/necklace_gem_small",
+      "moduleVariant": "gem_small/redstone"
+    },
+    {
+      "material": {
+        "items": [ "minecraft:quartz" ]
+      },
+      "countFactor": 2,
+      "moduleKey": "necklace/necklace_gem_small",
+      "moduleVariant": "gem_small/quartz"
+    },
+    {
+      "material": {
+        "items": [ "minecraft:obsidian" ]
+      },
+      "countFactor": 2,
+      "moduleKey": "necklace/necklace_gem_small",
+      "moduleVariant": "gem_small/obsidian"
     }
   ]
 }
