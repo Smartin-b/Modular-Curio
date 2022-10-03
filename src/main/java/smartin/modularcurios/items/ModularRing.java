@@ -25,14 +25,14 @@ public class ModularRing extends ModularItem implements ICurio {
     public final static String ringBase = "ring/base";
     public final static String ringGem = "ring/gem";
     private static final Logger logger = LogManager.getLogger();
-    private static final GuiModuleOffsets majorOffsets = new GuiModuleOffsets(-13, -1, 3, 19);
-    private static final GuiModuleOffsets minorOffsets = new GuiModuleOffsets(5, 0);
+    private static final GuiModuleOffsets majorOffsets = new GuiModuleOffsets(-13, -1);
+    private static final GuiModuleOffsets minorOffsets = new GuiModuleOffsets(3, 19);
     public static final String identifier = "modular_ring";
 
     public ModularRing() {
         super(new Properties());
-        majorModuleKeys = new String[]{ringBase, ringGem};
-        minorModuleKeys = new String[]{};
+        majorModuleKeys = new String[]{ringBase};
+        minorModuleKeys = new String[]{ringGem};
     }
 
     @Override

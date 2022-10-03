@@ -17,14 +17,14 @@
                     "tint": "fffed0",
                     "textureX": 80,
                     "textureY": 16
-                },
-                "models": [
-                    {
-                        "location": "tetra:items/module/ring/gem/small/default",
-                        "tint": "fffed0"
-                    }
-                ]
+                }
             },
+            "models": [
+                {
+                    "location": "tetra:items/module/ring/gem/small/star",
+                    "tint": "fffed0"
+                }
+            ],
             "effects": {
                 "criticalStrike": [ 15, 2 ]
             }
@@ -43,14 +43,14 @@
                     "tint": "diamond",
                     "textureX": 80,
                     "textureY": 16
-                },
-                "models": [
-                    {
-                        "location": "tetra:items/module/ring/gem/small/default",
-                        "tint": "diamond"
-                    }
-                  ]
-            }
+                }
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/ring/gem/small/default",
+                    "tint": "diamond"
+                }
+            ]
         },
         {
             "key": "gem_small/pristine_diamond",
@@ -66,14 +66,14 @@
                     "tint": "diamond",
                     "textureX": 80,
                     "textureY": 16
-                },
-                "models": [
-                    {
-                        "location": "tetra:items/module/ring/gem/small/default",
-                        "tint": "diamond"
-                    }
-                ]
-            }
+                }
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/ring/gem/small/bright",
+                    "tint": "diamond"
+                }
+            ]
         },
         {
             "key": "gem_small/emerald",
@@ -85,14 +85,14 @@
                     "tint": "emerald",
                     "textureX": 80,
                     "textureY": 16
-                },
-                "models": [
-                    {
-                        "location": "tetra:items/module/ring/gem/small/default",
-                        "tint": "emerald"
-                    }
-                ]
+                }
             },
+            "models": [
+                {
+                    "location": "tetra:items/module/ring/gem/small/default",
+                    "tint": "emerald"
+                }
+            ],
             "effects": {
                 "criticalStrike": [ 15, 2 ]
             }
@@ -107,14 +107,14 @@
                     "tint": "emerald",
                     "textureX": 80,
                     "textureY": 16
-                },
-                "models": [
-                    {
-                        "location": "tetra:items/module/ring/gem/small/default",
-                        "tint": "emerald"
-                    }
-                ]
+                }
             },
+            "models": [
+                {
+                    "location": "tetra:items/module/ring/gem/small/bright",
+                    "tint": "emerald"
+                }
+            ],
             "effects": {
                 "criticalStrike": [ 15, 4 ]
             }
@@ -130,16 +130,16 @@
                     "textureX": 80,
                     "textureY": 16
                 },
-                "models": [
-                    {
-                        "location": "tetra:items/module/ring/gem/small/default",
-                        "tint": "lapis"
-                    }
-                ],
                 "effects": {
                     "intuit": 1
                 }
-            }
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/ring/gem/small/default",
+                    "tint": "lapis"
+                }
+            ]
         },
         {
             "key": "gem_small/pristine_lapis",
@@ -152,16 +152,16 @@
                     "textureX": 80,
                     "textureY": 16
                 },
-                "models": [
-                    {
-                        "location": "tetra:items/module/ring/gem/small/default",
-                        "tint": "lapis"
-                    }
-                ],
                 "effects": {
                     "intuit": 2
                 }
-            }
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/ring/gem/small/default",
+                    "tint": "lapis"
+                }
+            ]
         },
         {
             "key": "gem_small/quartz",
@@ -176,14 +176,14 @@
                     "tint": "fcf4f9",
                     "textureX": 80,
                     "textureY": 16
-                },
-                "models": [
-                    {
-                        "location": "tetra:items/module/ring/gem/small/default",
-                        "tint": "fcf4f9"
-                    }
-                ]
-            }
+                }
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/ring/gem/small/default",
+                    "tint": "fcf4f9"
+                }
+            ]
         },
         {
             "key": "gem_small/redstone",
@@ -195,14 +195,14 @@
                     "tint": "ed3643",
                     "textureX": 80,
                     "textureY": 16
-                },
-                "models": [
-                    {
-                        "location": "tetra:items/module/ring/gem/small/default",
-                        "tint": "ed3643"
-                    }
-                ]
-            }
+                }
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/ring/gem/small/default",
+                    "tint": "ed3643"
+                }
+            ]
         },
         {
             "key": "gem_small/obsidian",
@@ -214,14 +214,14 @@
                       "tint": "50445a",
                       "textureX": 80,
                       "textureY": 16
-                  },
-                "models": [
-                    {
-                        "location": "tetra:items/module/ring/gem/small/default",
-                        "tint": "50445a"
-                    }
-                ]
-            }
+                  }
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/ring/gem/small/default",
+                    "tint": "50445a"
+                }
+            ]
         }
   ]
 }
